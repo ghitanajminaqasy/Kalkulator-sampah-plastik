@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ocean One</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"crossorigin="anonymous"/>
+    <script src="sampah.js"></script>
+   <style>  
+      .navbar {
+        background-color: #1768ac;
+      } 
+      .judul {
+        background: url("OCEAN ONE/img/dark.jpg")no-repeat center center;
+        background-size: cover;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: #ffffff;
+      }
+      .konten{
+        background: url("OCEAN ONE/img/blue.jpg") no-repeat center;
+        background-size: cover;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: rgb(0, 0, 0);
+      }
+      .konten2{
+        background: url("OCEAN ONE/img/sky.jpg") no-repeat center;
+        background-size: cover;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: rgb(0, 0, 0);
+      }
+      .konten3{
+       background-color: rgb(156, 227, 255);
+       margin-top: 0px;
+        padding-top: 20%;
+        padding-bottom: 20%;
+        color: rgb(0, 0, 0);
+      }
+      .map {
+        background: url("OCEAN ONE/img/laut.jpg") no-repeat center center;
+        background-size: cover;
+        float: right;
+        padding-bottom: 20%;
+        padding-top: 20%;
+        color: rgb(0, 0, 0);
+      }
+      footer {
+        background-color: #1768ac;
+        color: #fff;
+        text-align: right;
+        }
+        .logo img {
+          height: 40px;
+          margin-right: 20px;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-blue shadow-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <div class="logo">
+            <img src="OCEAN ONE/img/logo.jpg" >Ocean One
+          </div>
+        </a>      
+        <div class="collapse navbar-collapse text-right" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#actions">Actions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resources">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#explore">Explore</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid judul">
+      <div class="container text-center">
+        <h3 class="display-1" id="actions" style="margin-top: 90px;">PROTECT MARINE HABITATS</h3>
+        <h5 class="display-6" style="margin-top: 90px;">Reducing the threat of marine pollution through 'clean the ocean' activities and reducing the use of waste</h5>
+        <div>
+          <button type="button" class="btn btn-secondary" style=" margin-top: 90px;height: 80px; width: 170px; background-color: #03256c; border-radius: 100px;" onclick=sayAction()>TAKE ACTION</button>
+        </div>
+        </a>
+      </div>
+    </div>
+    <div class="container-fluid pt-5 pb-5 konten">
+        <div class="container">
+          <h2 class="display-3 text-center" id="resources">OFFSET YOUR PLASTIC FOOTPRINT</h2>
+          <p class="text-center">
+            Beyond reducing and avoiding plastic to lower your footprint, now we can play a more active role in offsetting  plastic footprint.
+          </p>
+          <div class="row pt-4 gx-4 gy-4">
+            <div class="col-md-4">
+              <div class="card crop-img">
+                <div class="card-body text-left">
+                  <h5 class="card-title">ALIGN</h5>
+                  <p class="card-text text-left">
+                    66% of people (73% of Millennials)
+                    are willing to pay more for products
+                    and services from companies
+                    committed to positive social and
+                    environmental impact.
+                  </p>
+                </div>
+                <button 
+                type="button" 
+                class="btn btn-primary px-3 mb-3">
+                LEARN MORE
+                </button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card crop-img">
+                <div class="card-body">
+                  <h5 class="card-title">KICKSTART</h5>
+                  <p class="card-text text-left">                    
+                Ocean One are a tumkey solution to
+                begin the journey of reducing your
+                business's environmental footprint
+                or going plastic neutral.
+                  </p>
+                </div>
+                <button 
+                type="button" 
+                class="btn btn-primary px-3 mb-3">
+                START ACTION
+                </button>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card crop-img">
+                
+                <div class="card-body">
+                  <h5 class="card-title text-left">AMPLIFY</h5>
+                  <p class="card-text text-left">
+                    Is your actions already making
+                    strides in its commitment to
+                    sustainability? measure progress 
+                    in overcoming the problem of plastic waste.
+                  </p>
+                </div>
+                <button 
+                type="button" 
+                class="btn btn-primary px-3 mb-3">
+                SEE HOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="container-fluid projects pt-5 pb-5 konten2">
+      <div class="container text-center">
+        <h2 class="display-3" id="projects">MAKE YOUR IMPACT</h2>
+        <div class="row pt-4">
+          <div class="col-md-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-award-fill" viewBox="0 0 16 16" style="position:relative;">
+              <path d="m8 0 1.669.864 1.858.282.842 1.68 1.337 1.32L13.4 6l.306 1.854-1.337 1.32-.842 1.68-1.858.282L8 12l-1.669-.864-1.858-.282-.842-1.68-1.337-1.32L2.6 6l-.306-1.854 1.337-1.32.842-1.68L6.331.864 8 0z"/>
+              <path d="M4 11.794V16l4-1 4 1v-4.206l-2.018.306L8 13.126 6.018 12.1 4 11.794z"/>
+            </svg>
+            
+           <i class="fas fa-code fa-5x"></i>
+            <p>
+                COMMIT TO REMOVING
+                A SPECIFIC AMOUNT
+            </p>
+          </div>
+          <div class="col-md-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+              <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/>
+            </svg>
+
+            <i class="fas fa-palette fa-5x"></i>
+            <p>
+                HE REMOVAL TO
+                PRODUCT SALES
+            </p>
+          </div>
+          <div class="col-md-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-shield-fill" viewBox="0 0 16 16">
+              <path d="M5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z"/>
+            </svg>
+            <i class="fas fa-network-wired fa-5x"></i>
+            <p>
+                INCENTIVIZE
+                COMMUNITY ACTION
+            </p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-4 gx-4 gy-4 konten3" style="margin-left: 50px; margin-right: 50px;">
+      <div class="col-md-4">
+        <div class="text-left" style="height: 100px; padding: 30px;">
+        </div>
+        <h2>PROJECT 1: </h2>
+        <br>
+        </div>
+        <div class="container-fluid">
+            <div class="row" style="height: 25px; margin-bottom:25px;">
+                <div class="col">
+                    <p class="text-left">
+                        OCEANBOUND CLEAN UP</p>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row" style="height: 300px; ">
+                <div class="col" style="background-color:#27557a; background-size: cover"></div>
+                <div class="col text-left" style="margin-top: 100px;">
+                    <p>PROBLEMS <br>
+                    Plastic recycling generates plastic waste effluent as a standard part of the process. This dirty discharge known as "Mud" is at risk of being discharge into the wastewater and, in the best-case, is usually taken to the nearest landfill.</p>
+                </div>
+            </div>
+        
+                <div class="col"></div>
+            
+            <div class="row" style="height: 300px; ">
+                <div class="col" style="margin-top: 100px; margin-left: 50px;">
+                    <p>SOLUTION <br>
+                    Repurposes the "Mud" into useful building materials. It's compositionis perfect for producing bricks! Unfortunately, the recycled plastic compound bricks are slightly more expensive than standard building bricks, so impact program incentivizes the reuse of the "Mud" in the bricks by making them competitive on the open market.</p></div>
+                <div class="col text-left" style="background-color:#27557a; background-size: cover; margin-right: 50px;" >
+         
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="text-left" style="height: 100px; padding: 30px;">
+          </div>
+          <h2>PROJECT 2:</h2>
+          <br>
+          </div>
+          <div class="container-fluid">
+              <div class="row" style="height: 25px; margin-bottom:25px;">
+                  <div class="col">
+                      <p class="text-left">
+                        FISHING NET RECOVERY</p>
+                  </div>
+                  <div class="col"></div>
+              </div>
+              <div class="row" style="height: 300px; ">
+                  <div class="col" style="background-color:#27557a; background-size: cover"></div>
+                  <div class="col text-left" style="margin-top: 100px;">
+                      <p>PROBLEMS <br>
+                        Fishing gear - nets and rope - pose a significant risk to sea life if cut away in the ocean. Unfortunately, incentives do not exist to recover this gear so at the end of its life, most gets landfilled or simply cut away at sea. It's a huge reason for why fishing nets are the largest ocean plastic polluter.</p>
+                  </div>
+              </div>
+                  <div class="col"></div>
+              <div class="row" style="height: 300px; ">
+                  <div class="col" style="margin-top: 100px; margin-left: 50px;">
+                      <p>SOLUTION <br>
+                        We provides the funds needed to incentivize collection and recyclingof this gear. This program creates a pathway for the reclamation of end of life fishing gear.  
+                      </p></div>
+                  <div class="col text-left" style="background-color:#27557a; background-size: cover; margin-right: 50px;" >
+                </div>
+              </div>
+          </div>      
+    </div>
+    <div class="col">
+              <div class="row" style="height: 700px; ">
+                  <div class="col" style="margin-top: 100px; margin-left: 50px;">
+                    <section style="height: auto;">
+                        <div class="row text-center">
+                          <h4 class="p-5" style="color:#03256c; margin-top: 60px; font-weight: bold;">Kalkulator Sampah Plastik</h4>
+                        </div>
+                        <form style="margin-left: 100px; margin-right: 100px;">
+                          <div class="row mb-3">
+                            <label for="inputBotolPlastik" class="col-sm-2 col-form-label">Botol Plastik</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="botol">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputSedotan" class="col-sm-2 col-form-label">Sedotan</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="sedotan">
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <label for="inputRokok" class="col-sm-2 col-form-label">Puntung Rokok</label>
+                            <div class="col-sm-10">
+                              <input type="text" class="form-control" id="rokok">
+                            </div>
+                          </div>
+                          <br>
+                          <button type="button" class="btn btn-primary" style="background-color: #1768ac; border-radius: 30px; padding-inline: 40px;" onclick=calculate()>Calculate</button> <br><br>
+                          <button type="button" class="btn btn-primary" style="background-color: #03256c; border-radius: 30px; padding-inline: 40px;" onclick=addItem()>Add item</button>
+                        </form>
+                        <div style="color:#03256c; margin-left: 100px; margin-top: 30px;">
+                          <p id="hasil"></p>
+                        </div>
+                      </section>
+                  </div>
+              </div> 
+    </div> 
+    <div class="container-fluid pt-5 pb-5 explore map">
+      <div class="container">
+        <h2 class="display-3 text-center" id="explore">GET IN TOUCH</h2>
+        <div class="row g-5">
+          <div class="col">
+          <iframe
+                src="https://www.google.com/maps?q=69HG%2BCX+Caturtunggal%2C+Sleman+Regency%2C+Special+Region+of+Yogyakarta&z=16&output=embed"
+                style="border: 0;"
+                allowfullscreen=""
+                loading="lazy"
+            
+                  width="600"
+                  height="450"
+              ></iframe>
+            </div>
+            <form class="col ">
+              <div>
+                <label for="name" class="form-label"></label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+              </div>
+              <div>
+                <label for="email" class="form-label"></label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+              </div>
+              <div>
+                <label for="message" class="form-label"></label>
+                <textarea type="text" rows="5" class="form-control" id="message" placeholder="Write your message here..."></textarea>
+              </div>
+              <div>
+                <button type="button" class="btn btn-secondary" style="background-color: #03256c; border-radius: 100px;" onclick=tampil() >SEND</button>
+              </div>
+              <div>
+            </form>
+          </div>
+        </div>
+          <br>
+          <div>
+              <h5 id="thanks" style="color:#03256C"></h5>
+              <p id="myname"></p>
+              <p id="contactme"></p>
+              <p id="saysomething"></p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer mt-auto py-3 bg-body-tertiary">
+      <div class="container">
+        <div>
+          <ul>
+            <a class="" href="#" style="color: white; text-decoration : none; ">Newsletter</a>
+            <a class="" href="#" style="color: #fff; text-decoration:none;">Privacy policy</a>
+            <a class="" href="#" style="color: white; text-decoration : none; ">FAQs</a>
+        </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
